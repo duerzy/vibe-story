@@ -38,6 +38,9 @@
 - 由 Claude 写成第一人称、保留挫折与反转的长文——读起来像故事，不像流水账
 - 不需要额外的 API key 或服务，产物就存在你自己的项目目录里
 
+> **适用范围**：目前只读 **Claude Code** 的会话日志（`~/.claude/projects/`）。
+> Codex 等其他 agent 的日志格式不同，暂不支持（欢迎 PR）。
+
 ## 安装
 
 装好后，在 Claude Code 里输入 `/vibe-story` 就能用。

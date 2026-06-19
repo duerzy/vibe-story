@@ -7,6 +7,10 @@ description: 将 Claude Code 的多个开发会话提取为时间线骨架，并
 
 将 Claude Code 跨多个会话的开发过程，提取为可读的时间线骨架，再生成适合公众号发布的长文。
 
+> **适用范围**：提取层只认 Claude Code 的会话日志（`~/.claude/projects/<hash>/*.jsonl`）。
+> Codex（`~/.codex/sessions/`）等其他 agent 的日志路径与格式都不同，当前**不支持**。
+> 若在非 Claude Code 环境被触发，应如实告知用户暂不支持，不要硬跑（会提取出 0 条）。
+
 ## 工作流程
 
 ```
